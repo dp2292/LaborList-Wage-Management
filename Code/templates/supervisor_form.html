@@ -1,0 +1,35 @@
+{% extends 'index.html' %}
+{% block content%}
+{% load crispy_forms_tags %}
+<div class="container">
+    <div class="col-md-10 offset-md-1 mt-5">
+<div class="jumbotron">
+    <h1 class="display-4">Supervisor Registration Form</h1>
+    <hr class="my-4">
+<form action="" method="POST" autocomplete="off">
+{% csrf_token %}    
+<div class="row">
+<div class="col-md-6">
+{{form.Supervisor_ID|as_crispy_field}}
+</div>
+<div class="col-md-6">
+{{form.Rating|as_crispy_field}}
+</div>
+</div>
+{{form.No_of_laborers|as_crispy_field}}
+    <div class="row">
+        <div class="col-md-8">
+            <button type="submit" class="btn btn-success btn-block btn-lg"><i class="fas fa-save"></i>
+                Submit</button>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'Supervisor show' %}" class="btn btn-secondary btn-block btn-lg">
+                <i class="fas fa-list"></i> Back to list
+            </a>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+</div>
+{% endblock content%}

@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+{% block content%}
+<div class="container">
+    <div class="col-md-12 mt-5">
+        <div class="jumbotron">
+            <hr class="my-4">
+            <h1 class="display-4">Raw Query Result</h1>
+      <table class="table table-borderless">
+        <thead class="border-bottom font-weight-bold">
+            <tr>
+                {% for val in dic %}
+                    <td>{{val}}</td>
+            {% endfor %}
+            </tr>
+        </thead> 
+        <tbody>
+            {% for tuple in data %}
+                <tr>
+                    {% for val in tuple %}
+                    <td>{{val}}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <button type="button" class="btn btn-outline-dark"> <a href="{% url "home_page"  %}">Back to the Home</button>
+</div>
+</div>
+
+</div>
+{% endblock content%}

@@ -1,0 +1,246 @@
+<html lang="en"> 
+  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>LaborList and Wages</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+{% block style%}
+
+  <style>
+    body {
+      background: #28143c;
+      color:  #28143c;
+      font-family: "Open Sans", sans-serif;
+    }
+    a {
+      color: #006699;
+      transition: 0.5s;
+    }
+    a:hover,
+    a:active,
+    a:focus {
+      color: #006699;
+      outline: none;
+      text-decoration: none;
+    }
+    p {
+      padding: 0;
+      margin: 0 0 30px 0;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      margin: 0 0 20px 0;
+      padding: 0;
+      color: #0e1b4d;
+    }
+    #vanta-rings
+    {
+      width: 100%;
+      height: 90vh;
+      padding-top: 10px;
+      overflow:hidden;
+      position: relative;
+    }
+    #intro .intro-container {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      top: 90px;
+      right: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display:flex;
+      -webkit-box-pack :center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items:flex-start;
+      flex-direction: column;
+      text-align:center;
+      padding: 0px 200px;
+    }
+  
+    #intro h1 {
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      font-size: 70px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    
+    #intro h2 {
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      font-size: 35px;
+      font-weight: 600;
+    }
+    #intro h1 span {
+      color: white;
+    }
+    
+    #intro p {
+      color: #ebebeb;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    #intro .about-btn {
+      font-family: "Raleway", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 12px 32px;
+      border-radius: 50px;
+      transition: 0.5s;
+      line-height: 1;
+      margin: 10px;
+      color: #fff;
+      -webkit-animation-delay: 0.8s;
+      animation-delay: 0.8s;
+      border: 1px solid #006699;
+  
+    }
+    
+    #intro .about-btn:hover {
+      background: #006699;
+      color: #fff;
+    }
+        </style>
+{% endblock style%}
+
+    </head>
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="https://www.daiict.ac.in/" target="_blank" >
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvDMMkGwI-dGTLSlOqS4_cjDpjZWyKZBMy4C0X6q0&s" width="50" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link btn btn-outline-success " href="{% url "home_page"%}">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="{% url "Supervisor show"%}">Superviosr List <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="{% url "Labor_show"%}">Labor List<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="{% url "Query run"%}">Run Complex Query<span class="sr-only">(current)</span></a>
+            </li>
+            {% block nav%}
+            {% endblock nav%}
+          </ul>
+        </div>
+      </nav>
+                    {% block content %}
+                    <section id="intro"> 
+                        <div id="vanta-rings"> 
+                         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+                         <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+                         <script>
+                         VANTA.GLOBE({
+                           el: "#vanta-rings",
+                           mouseControls: true,
+                           touchControls: true,
+                           gyroControls: false,
+                           minHeight: 200.00,
+                           minWidth: 200.00,
+                           scale: 1.00,
+                           scaleMobile: 1.00
+                         })
+                         </script>
+                        </div> 
+                        <div class="intro-container wow fadeIn"> 
+                          <h1 class="mb-4 pb-0">LaborList and Wages <br><span>2022</span> </h1> 
+                          <h2 class="mb-4 pb-0">IT214 Database Management System</h2> 
+                          <p class="mb-4 pb-0">Prof. Rachit Chhaya and Minal Bhise <br>Teaching Assitance: Vinay Maharaj </p> 
+                     
+                          <a href="#about" style="text-decoration:none;" class="about-btn scrollto">About The Project</a> 
+                          <a href="{% url "Supervisor show"%}" style="text-decoration:none;" class="about-btn scrollto">Municipal Department Login</a> 
+                          <a href="labor_list/" style="text-decoration:none;" class="about-btn scrollto">Supervisor Login</a>
+                          <a href="{% url "Query run"%}" style="text-decoration:none;" class="about-btn scrollto">Run Complex Query </a> 
+                        </div> 
+                      </section> 
+                      <main id="main"> 
+                     
+                        <!--========================== 
+                          About Section 
+                        ============================--> 
+                        <section id="about">
+                        <div class="container">
+                            <div class="col-md-12 mt-5">
+                        <div class="jumbotron">
+                            <h1 class="display-4 offset-3" >About Our Project</h1>
+                            <ul>
+                            <li>
+                            <p class="lead font-italic">
+                                The primary purpose of this document is to create a database for managing Data
+                                for LabourList and wages and build a system that will make the work of the
+                                Supervisors and Labors much easier. The purpose of this system will be to keep
+                                track of Laborers, their working hours and wages, type of work, minimum wage,
+                                rate per hour, payment status...etc.
+                               
+                               </p> 
+                            </li>
+                            <li>
+                               <p class="lead font-italic"> 
+                                This database will provide fast and convenient access to the required data and
+                                allow Labors/Supervisors to view their profiles. It will allow Supervisors to keep
+                                
+                                track of the payment status and modify them as per their requirements. This
+                                document serves as a guide for developers of this management system.
+                               </p> 
+                            </li>
+                            <li>
+                               <p class="lead font-italic"> 
+                              
+                                The system also aims to save paper and cut down on time wastage. Along with
+                                these, users also value the system's ease of use, ability to create a paperless
+                                environment, simplicity of customization, and many other noteworthy features.
+                               </p>
+                            </li>
+                            </ul> 
+                          </div>
+                          </div> 
+                        </div>
+                    </div> 
+                        </section> 
+                      
+                        <footer  class="text-center text-white" style="background-color: #f1f1f1;">
+                           <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Designed by Devdeep Shetranjiwala, Devansh Patel
+  </div>
+                          </footer>
+                    {% endblock content %}
+    
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    </body>
+  
+ </html>

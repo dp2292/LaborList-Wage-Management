@@ -1,0 +1,54 @@
+{% extends 'index.html' %}
+{% block content%}
+{% load crispy_forms_tags %}
+<div class="container">
+    <div class="col-md-10 offset-md-1 mt-5">
+<div class="jumbotron">
+    <h1 class="display-4">Labor Registration Form</h1>
+    <hr class="my-4">
+<form action="" method="POST" autocomplete="off">
+{% csrf_token %}    
+<div class="row">
+    <div class="col-md-4">
+        {{form.Labor_ID|as_crispy_field}}
+        </div>
+<div class="col-md-4">
+{{form.Supervisor_ID|as_crispy_field}}
+</div>
+<div class="col-md-4">
+{{form.Rating|as_crispy_field}}
+</div>
+</div>
+{{form.City_ID|as_crispy_field}}
+<div class="row">
+<div class="col-md-8">
+{{form.Name|as_crispy_field}}
+</div>
+<div class="col-md-4">
+{{form.Gender|as_crispy_field}}
+</div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+    {{form.Work|as_crispy_field}}
+    </div>
+    <div class="col-md-4">
+    {{form.Work_type|as_crispy_field}}
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <button type="submit" class="btn btn-success btn-block btn-lg"><i class="fas fa-save"></i>
+                Submit</button>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'Labor_show' %}" class="btn btn-secondary btn-block btn-lg">
+                <i class="fas fa-list"></i> Back to list
+            </a>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+</div>
+{% endblock content%}
