@@ -1,0 +1,51 @@
+Labor Id,Supervisor Id,Rating,City Id,Gender,Wage Type,Wage
+38-0214438,55-7982895,3.4,03-9838892,Male,Weekly,aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi
+05-7016188,24-5454483,3.5,46-9347934,Female,Weekly,ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec
+63-9901075,39-4698932,3.6,96-9235355,Male,Weekly,ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque
+85-9628486,83-8646919,4.2,69-0122588,Polygender,Daily,ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit
+23-2991337,97-4354316,4.7,97-2110779,Female,Daily,metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque
+35-4008907,45-6930856,4.8,66-3957243,Female,Weekly,integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui
+32-0832003,28-1600640,3.9,98-6190087,Female,Weekly,aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac
+76-4978987,60-4429436,2.3,55-1225385,Non-binary,Daily,phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie
+73-6634750,65-6784974,1.6,67-5762394,Male,Weekly,nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam
+29-0456044,20-0306068,1.5,85-2904191,Female,Daily,suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et
+42-6749175,13-4670361,3.4,51-2379494,Female,Weekly,interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue
+92-1802886,21-2905180,1.2,89-7988517,Female,Daily,ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis
+76-0482648,31-2440248,4.5,74-5618859,Female,Weekly,arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu pede
+33-7413009,65-6784974,2.6,57-0260180,Male,Weekly,sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus
+53-9344740,27-4449068,4.5,25-8924488,Male,Weekly,faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras
+60-3885705,60-4429436,3.3,88-1189573,Bigender,Daily,lorem ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non
+16-9828633,18-3260367,3.2,30-3503874,Genderqueer,Weekly,nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel
+04-5967972,55-7982895,2.9,29-2203087,Bigender,Daily,vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum
+95-2641263,61-6667976,3.9,91-9357481,Female,Weekly,imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat
+68-7022339,75-5795671,4.6,87-6356892,Female,Daily,morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo
+96-2916135,04-3036854,2.8,40-8567073,Female,Daily,tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu
+77-1900885,14-8392359,1.3,11-1786439,Female,Daily,semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh
+04-8660753,34-1814620,4.9,96-5007783,Female,Daily,velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla
+18-7000713,39-4698932,2.3,07-7223929,Male,Daily,vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula
+55-8277263,49-9136247,4.2,32-9340745,Genderqueer,Daily,pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus
+69-5175950,70-9213943,2.0,79-8938058,Female,Weekly,massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi
+88-4030361,92-5003433,3.9,46-0017330,Male,Weekly,morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce
+03-4349862,45-6930856,2.4,80-0540348,Male,Weekly,tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla
+57-0324212,97-4354316,3.3,92-6548184,Male,Weekly,id ligula suspendisse ornare consequat lectus in est risus auctor sed
+98-9387639,63-8777269,2.8,70-7773238,Genderfluid,Daily,tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus
+87-1338910,63-8777269,1.6,83-7415281,Female,Daily,nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis
+66-2144147,82-5698982,4.5,24-2937374,Male,Daily,curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non
+58-9021330,34-1814620,2.4,98-1837602,Female,Weekly,tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam
+08-7327675,27-4449068,3.2,68-9950285,Male,Daily,pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse
+96-5840244,85-5068823,2.6,61-5404623,Male,Weekly,interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus
+93-4064352,39-5803973,1.0,95-1255932,Male,Weekly,tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est
+81-7514895,31-0346296,3.7,67-5896799,Female,Weekly,mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer
+89-9306325,05-0477981,1.7,64-7792197,Male,Weekly,ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in
+88-0421245,61-2659675,4.2,15-6863221,Female,Weekly,vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est
+39-5362523,38-6714929,2.7,46-2390940,Female,Weekly,at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+58-7071391,39-4698932,2.1,23-1815196,Male,Weekly,curae duis faucibus accumsan odio curabitur convallis duis consequat dui
+40-2256414,38-6714929,1.7,17-1949660,Male,Daily,accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut
+04-0093057,82-5698982,4.9,14-4555940,Male,Weekly,lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula
+37-4965873,20-0306068,3.3,18-9258390,Female,Weekly,nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in
+92-7679652,83-1126121,3.1,04-0319505,Female,Weekly,molestie nibh in lectus pellentesque at nulla suspendisse potenti cras
+01-8708559,48-5990749,4.9,80-1333970,Male,Daily,sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget
+23-8255192,20-0306068,1.5,04-9973393,Male,Daily,semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam
+32-7896303,04-5861855,4.9,60-6081508,Male,Weekly,sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel
+24-1827746,24-5454483,3.7,06-0130045,Male,Weekly,ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit
+63-9028445,04-2936535,3.1,44-7061431,Male,Daily,metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu
